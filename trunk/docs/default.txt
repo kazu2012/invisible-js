@@ -29,9 +29,9 @@ Invisible.js is javascript documentation framework.
     <html>
       <head>
         <title></title>
-        <script type="text/javascript" charset="utf-8" src="./lib/jquery-1.5.2.min.js"></script>
-        <script type="text/javascript" charset="utf-8" src="./lib/jquery.history.js"></script>
-        <script type="text/javascript" charset="utf-8" src="./lib/invisible.js"></script>
+        <script type="text/javascript" src="./lib/jquery-1.5.2.min.js"></script>
+        <script type="text/javascript" src="./lib/jquery.history.js"></script>
+        <script type="text/javascript" src="./lib/invisible.js"></script>
       </head>
       <body>
         <div id="content"></div>
@@ -151,8 +151,8 @@ Add original converter
 
 #### script include
 
-    <script type="text/javascript" charset="utf-8" src="./lib/jarty.js"></script>
-    <script type="text/javascript" charset="utf-8" src="./lib/jarty.date.js"></script>
+    <script type="text/javascript" src="./lib/jarty.js"></script>
+    <script type="text/javascript" src="./lib/jarty.date.js"></script>
 
 #### div attribute
 
@@ -216,5 +216,10 @@ including javascript code.
 
 ## Download
 
-- [Invisible.js project - Chrome Life](http://www.chrome-life.com/javascript/invisible/)
+- [Invisible.js Google code](https://code.google.com/p/invisible-js/)
+
+## Support Site
+
+- [Chrome Life](http://www.chrome-life/javascript/invisible/)
+  (Japanese only)
 
