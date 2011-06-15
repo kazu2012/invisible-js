@@ -220,6 +220,6 @@ including javascript code.
 
 ## Support Site
 
-- [Chrome Life](http://www.chrome-life/javascript/invisible/)
+- [Chrome Life](http://www.chrome-life.com/javascript/554/)
   (Japanese only)
 
