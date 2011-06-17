@@ -118,6 +118,9 @@
         };
         var search_content = function(el){
             $('*[data-file], .importdoc', $(el)).each(function(){
+                if ($(this).attr('id') == 'content') {
+                    return;
+                }
                 var file_name = $(this).attr('data-file');
                 if (!file_name) {
                     var file_name = $(this).attr('id');
@@ -164,8 +167,12 @@
         };
         search_content($('body'));
         var load_content = function(file_name) {
-            $('#content').bind('render.invisible', chenge_title);
-            convert_content($('#content'), contentFileName(file_name));
+            var content_div = $('#content');
+            content_div.bind('render.invisible', chenge_title);
+            if (!file_name && content_div.attr('data-file')) {
+                file_name = content_div.attr('data-file');
+            }
+            convert_content(content_div, contentFileName(file_name));
         };
         $.history.init(load_content);
     });

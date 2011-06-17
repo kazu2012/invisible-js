@@ -1,4 +1,4 @@
-Invisible.js
+Invisible.js Readme
 ==================
 Invisible.js is javascript documentation framework.
 
@@ -27,12 +27,12 @@ Supported document format
 
 Documentation
 ------------------
-- [docs/index.html](./docs/index.html)
+- [/invisible/docs/index.html](./invisible/docs/index.html)
 
 
 Examples
 ------------------
-- [docs/examples/index.html](./docs/examples/index.html)
+- [/invisible/docs/examples/index.html](./invisible/docs/examples/index.html)
 
 ------------------
 Copyright &copy; 2011 [LIVEOUT, Inc.](http://www.liveout.co.jp/), All Rights Reserved.
